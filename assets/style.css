@@ -227,8 +227,8 @@ h1 {
 
 
 .block {
-    background-color:#6E07F3 ;
-    border: 2px solid black;
+    background-color:#ffffff ;
+    border: 2px solid #6E07F3;
 }
 
 .contact {
@@ -292,4 +292,13 @@ h1 {
     text-align: center;
     color: rgba(0, 0, 0, 0.782);
 
+}
+
+@media screen and (max-width: 1024px) {
+    .container-line-1 {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        padding: 30px;
+    }
 }
